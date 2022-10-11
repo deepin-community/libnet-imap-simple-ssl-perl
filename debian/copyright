@@ -1,0 +1,19 @@
+This is the debian package for the Net-IMAP-Simple-SSL module.
+It was created by Joost van Baal <joostvb@uvt.nl> using dh-make-perl.
+
+The upstream author is:
+
+Casey West <casey@geeknest.com>.
+
+It was downloaded from http://www.cpan.org/, and is available from any CPAN
+mirror as Net-IMAP-Simple-SSL-<version>.tar.gz .
+The generic upstream URL is http://search.cpan.org/dist/Net-IMAP-Simple-SSL/
+
+Copyright (c) 2004 Casey West.  All rights reserved.
+  This module is free software; you can redistribute it and/or modify it
+  under the same terms as Perl itself.
+
+Perl is distributed under your choice of the GNU General Public License or
+the Artistic License.  On Debian GNU/Linux systems, the complete text of the
+GNU General Public License can be found in `/usr/share/common-licenses/GPL'
+and the Artistic Licence in `/usr/share/common-licenses/Artistic'.

@@ -1,0 +1,26 @@
+Source: libnet-imap-simple-ssl-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Allard Hoeve <allard@byte.nl>,
+           gregor herrmann <gregoa@debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl,
+                     libio-socket-ssl-perl,
+                     libnet-imap-simple-perl
+Standards-Version: 4.0.0
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libnet-imap-simple-ssl-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libnet-imap-simple-ssl-perl.git
+Homepage: https://metacpan.org/release/Net-IMAP-Simple-SSL
+Testsuite: autopkgtest-pkg-perl
+
+
+Package: libnet-imap-simple-ssl-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends},
+         libio-socket-ssl-perl,
+         libnet-imap-simple-perl
+Description: Subclass of Net::IMAP::Simple with SSL support
+ Net::IMAP::Simple::SSL is a subclass of Net::IMAP::Simple that
+ includes SSL support. The interface is identical.
